@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+
+
+    max-width: 100%;
+    
+    
+}
+body{
+    width: 100%;
+height: 100vh;
+overflow-x: hidden;
+transition: all 0.4s ease;
+}
+     /* <!-- section 1 --> */
+
+.section1 {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 700px;
+    background:url(blue_bg.png) no-repeat center center/cover ;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 110px;
+    position: relative;
+    top: 0;
+width: 100%;
+
+}
+.left-nav {
+    display: flex;
+position: relative;
+right: 6%;
+top: 30%;
+}
+.left-nav img {
+    position: relative;
+    right: 30px;
+    width: 170px;
+    height: 85px;
+}
+
+.left-nav ul {
+    display: flex;
+    margin-top: 20px;
+}
+.left-nav li {
+    margin: 20px 30px 0 0;
+font-size: 16px
+}
+.left-nav a {
+    color: #464343;
+}
+.left-nav a:hover {
+color: blue;
+}
+.right-nav{
+position:relative ; 
+top: 65%; 
+left: 5%;
+
+}
+.right-nav img {
+ 
+    width: 100px;
+    position: absolute;
+
+}
+
+.right-nav  a{
+    color: blue;
+
+}
+
+.right-nav a h4{
+width: 80px; 
+height: 30px;
+  border-radius: 35%;
+  border: none;
+  font-size: 14px;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+  color: #6a7fc7;
+  position: relative;
+ top: 2px;
+  left: 20px;
+}
+
+
+
+.we-deliver{
+    display: flex;
+    justify-content: space-between;
+}
+.deliver{
+    position: relative;
+    top: 150px;
+    left: 8%;
+}
+.deliver h1{
+    display: flex;
+word-spacing: 3px;
+color: #2b2929;
+font-family: "Varela Round", sans-serif;
+font-weight: 600;
+font-size: 50px;
+
+
+}
+.deliver .color {
+    color: #94388c;
+padding:0 15px;}
+
+.deliver p{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #464343;
+}
+
+.delivery-img {
+    position: relative;
+bottom: 70px;
+}
+.delivery-img img{
+    width: 100%
+
+    
+}
+.delivery-img .img-1 {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    z-index: 1;
+
+}
+
+.delivery-img .img-2 {
+    position: relative;
+    top: 110px;
+    left: 180px;
+    z-index: 2;
+    width: 280px;
+
+    
+}
+
+.delivery-img .img-3 {
+    position: relative;
+    top: 190px;
+right: 25%;  
+  z-index: 3;
+    width: 370px;
+
+}
+.waves img {
+    position: relative;
+    top: 0px;
+    right: 20%;
+}
+
+    /*end section 1  */
+
+    /* <!-- section 2 --> */
+
+
+.section2{
+width: 90%;
+height: 100vh;
+position: relative;
+top: 70px;
+
+}
+.second {
+    position: relative;
+    
+}
+.second img {
+    width: 75%;
+    position: relative;
+    top: 80px;
+    left: 300px;
+
+
+}
+
+
+.fast-delivery {
+    position: relative;
+bottom: 330px;  
+right: 25%; 
+ text-align: center;
+}
+.fast-delivery h1 {
+    font-size: 22px;
+    color: #797575;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.fast-delivery p {
+    font-size: 18px;
+word-spacing: 3px;
+color: #5e5959;
+line-height: 25px;
+margin-top: 5px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+}
+
+
+.tracking {
+    position: relative;
+bottom: 430px;
+left: 10%; 
+text-align: center;
+}
+.tracking h1 {
+    font-size: 22px;
+    color: #797575;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.tracking p {
+    font-size: 18px;
+word-spacing: 3px;
+color: #5e5959;
+line-height: 25px;
+margin-top: 5px;
+font-weight: 300;
+font-family: "Roboto", sans-serif;
+
+}
+.kudzoka{
+    position: relative;
+    bottom: 470px;
+    left: 130px;
+}
+.kudzoka img {
+    position: absolute;
+    top: 0;  
+  left: 0;
+    width: 320px;
+    
+}
+.kudzoka h4{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+font-weight: 400;
+}
+.kudzoka h1{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    color: aliceblue;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+}
+
+.discount {
+    position: relative;
+bottom: 520px;
+left: 35%; 
+text-align: center;
+}
+.discount h1 {
+    font-size: 22px;
+    color: #797575;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.discount p {
+    font-size: 18px;
+word-spacing: 3px;
+color: #5e5959;
+line-height: 25px;
+margin-top: 5px;
+font-weight: 300;
+font-family: "Roboto", sans-serif;
+
+}
+
+ /*end section 2  */
+
+    /* <!-- section 3 --> */
+
+
+.section3{
+    width: 100%;
+    height: 100vh;
+
+}
+.section3 .third-part {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70%;
+    transform: translateY(-50%);
+left: 50px;
+}
+.section3 .third-part img {
+    width: 70%;
+    height: 70%;
+
+
+}
+.section3 .third-part i{
+    font-size: 30px;
+    color: #5e5959;
+    position: relative;
+    top: 100px;
+    right: 50px;
+
+}
+.section3 .money {
+position: relative;
+top: 155px;
+left: 40%;
+}
+.section3 .money h1{
+    font-size: 18px;
+    color: #6d6969;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.section3 .money p {
+    position: relative;
+    right: 42%;
+    top: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #a8a2a2;
+    text-align: center;
+    font-weight: 600;
+}
+
+ /*end section 3  */
+
+    /* <!-- section 4 --> */
+
+.section4{
+    width: 100%;
+    height: 490px;
+    position: relative;
+    bottom: 0px;
+    right: 0;
+    background:url(edit.png) no-repeat center center/cover ;
+overflow: hidden;
+}
+
+.end img {
+    width: 590px;
+    position: relative;
+    top: 93px;
+   left: 49%;
+
+}
+.store{
+    position: relative;
+    display: flex;
+    top: 50px;
+}
+
+
+.app-store {
+    position: absolute;
+    bottom: 140px;
+    left: 55px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+.app-store img {
+    width: 20px;
+    height: 20px;
+position: relative;
+top: 5px;
+}
+
+.app-store p {
+    font-size: 8px;
+    color: #3d3b3b;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+.app-store h4 {
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: 12px;
+    color: #5e5656;
+
+}
+
+.play-store {
+    position: relative;
+    bottom: 140px;
+    left: 15%;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+.play-store img {
+    width: 20px;
+    height: 20px;
+position: relative;
+top: 5px;
+}
+
+.play-store p {
+    font-size: 8px;
+    color: #3d3b3b;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+.play-store h4 {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: 12px;
+    color: #5e5656;
+}
+.social {
+    position: relative;
+    bottom: 50px;
+
+}
+.social img {
+    width: 25px;
+position: relative;
+left: 60px;
+bottom: 15px;
+margin: 3px;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+.social .facebook {
+    width: 15px;
+}
+.left-nav2 {
+position: relative;
+left: 3%;
+bottom: 50px;
+
+}
+.left-nav2 ul {
+    list-style: none;
+    display: flex;
+}
+.left-nav2 ul li {
+    margin: 20px;
+
+}
+.left-nav2 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100px;
+}
+.left-nav2 ul li a:hover {
+    color: #1f2230;
+    
+}
+
+                /* END CODE */
